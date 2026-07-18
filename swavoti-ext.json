@@ -1,0 +1,17 @@
+{
+  "name": "swavoti-google-dark",
+  "displayName": "Google Dark",
+  "version": "1.0.0",
+  "publisher": "Codetist",
+  "type": "theme",
+  "contributes": {
+    "themes": [
+      {
+        "id": "google-dark",
+        "label": "Google Dark",
+        "type": "dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
