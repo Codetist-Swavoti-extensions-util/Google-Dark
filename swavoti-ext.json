@@ -1,14 +1,14 @@
 {
-  "name": "swavoti-google-dark",
-  "displayName": "Google Dark",
+  "name": "Google Dark Theme",
+  "displayName": "Swavoti Paper Silk",
   "version": "1.0.0",
   "publisher": "Codetist",
   "type": "theme",
   "contributes": {
     "themes": [
       {
-        "id": "google-dark",
-        "label": "Google Dark",
+        "id": "paper-silk",
+        "label": "Paper Silk",
         "type": "dark",
         "path": "./theme.json"
       }
