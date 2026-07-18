@@ -1,60 +1,41 @@
 {
-  "name": "Google Dark",
-  "type": "dark",
+  "name": "Paper Silk",
+  "type": "light",
   "colors": {
-    "editor.background": "#202124",
-    "editor.foreground": "#E8EAED",
-    "editor.lineHighlightBackground": "#303134",
-    "editorCursor.foreground": "#8AB4F8",
-    
-    "sideBar.background": "#17181A",
-    "sideBar.foreground": "#9AA0A6",
-    "sideBar.border": "#3C4043",
-    
-    "activityBar.background": "#17181A",
-    "activityBar.foreground": "#8AB4F8",
-    
-    "tab.activeBackground": "#202124",
-    "tab.inactiveBackground": "#17181A",
-    "tab.activeBorderTop": "#8AB4F8"
+    "editor.background": "#F5F5F0",
+    "editor.foreground": "#383A42",
+    "editor.lineHighlightBackground": "#EAEAE4",
+    "editorCursor.foreground": "#E45649",
+    "sideBar.background": "#EAEAE4",
+    "sideBar.foreground": "#5C5F66",
+    "sideBar.border": "#DCDCD6",
+    "activityBar.background": "#DCDCD6",
+    "activityBar.foreground": "#383A42",
+    "tab.activeBackground": "#F5F5F0",
+    "tab.inactiveBackground": "#EAEAE4",
+    "tab.activeBorderTop": "#E45649"
   },
   "tokenColors": [
     {
+      "name": "Keywords and Storage",
       "scope": ["keyword", "storage", "modifier"],
       "settings": {
-        "foreground": "#8AB4F8",
+        "foreground": "#A626A4",
         "fontStyle": "bold"
       }
     },
     {
+      "name": "Strings",
       "scope": ["string", "string.template"],
       "settings": {
-        "foreground": "#81C995"
+        "foreground": "#50A14F"
       }
     },
     {
+      "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#FDE293"
-      }
-    },
-    {
-      "scope": ["variable", "variable.parameter"],
-      "settings": {
-        "foreground": "#E8EAED"
-      }
-    },
-    {
-      "scope": ["constant.numeric", "constant.language", "constant.character"],
-      "settings": {
-        "foreground": "#F28B82"
-      }
-    },
-    {
-      "scope": ["comment", "punctuation.definition.comment"],
-      "settings": {
-        "foreground": "#9AA0A6",
-        "fontStyle": "italic"
+        "foreground": "#4078F2"
       }
     }
   ]
